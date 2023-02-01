@@ -12,5 +12,6 @@ class myText(models.Model) :
     def publish(self):
         self.save()
 
+
      def __str__(self):
          return self.title
