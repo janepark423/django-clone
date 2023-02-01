@@ -3,3 +3,6 @@
 
 # url 마이그레이트
 # python manage.py makemigrations
+
+# url 마이그레이트 APPLY
+# python manage.py migrate
