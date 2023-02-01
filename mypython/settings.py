@@ -122,4 +122,9 @@ STATIC_URL = 'static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
+CKEDITOR_UPLOAD_PATH = 'uploads/'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/media/'
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
