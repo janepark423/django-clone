@@ -2,5 +2,7 @@
 
 {% block content %}
     hello py jain
-    {{ texts1 }}
+    {% for text in texts1 %}
+        {{ text }}
+    {% endfor %}
 {% endblock %}
