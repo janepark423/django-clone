@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-hello py jain<br/>
-This is Home dir
-{{ texts1 }}
-</body>
-</html>
+{% extends 'startpy_lecture/base.html'%}
+
+{% block content %}
+    hello py jain
+    {{ texts1 }}
+{% endblock %}
