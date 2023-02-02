@@ -1,8 +1,9 @@
 {% extends 'startpy_lecture/base.html'%}
 
 {% block content %}
-    hello py jain
+
     {% for text in texts1 %}
-        {{ text }}
+        {{ text.title }}
+         <br/>
     {% endfor %}
 {% endblock %}

@@ -4,7 +4,7 @@ from .models import myText
 # Create your views here.
 
 def home_list(request) :
-    texts = myText.objects.filter(category="html")
+    texts = myText.objects.filter()
 
     # texts1 = "1번 타이틀"
     # texts2 = "2번 타이틀"
