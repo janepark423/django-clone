@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'startpy_lecture',
     'ckeditor',
+    'ckeditor_uploader'
 ]
 
 MIDDLEWARE = [

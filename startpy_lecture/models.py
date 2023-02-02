@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.db import models
 from ckeditor.fields import RichTextField
+from ckeditor_uploader.fields import RichTextUploadingField
 
 
 # Create your models here.
@@ -10,7 +11,10 @@ class myText(models.Model) :
     contents = models.CharField(max_length=200)
     img_url = models.CharField(max_length=200)
 
-    board_text = RichTextField(null=True)
+    #카테고리
+    category = models.CharField(max_length=200, null=True)
+
+    board_text = RichTextUploadingField(null=True)
 
     def publish(self):
         self.save()
